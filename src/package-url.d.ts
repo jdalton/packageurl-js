@@ -20,7 +20,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-declare module "packageurl-js" {
+declare module "@jdalton/packageurl-js" {
 
   /**
    * A purl or package URL is an attempt to standardize existing approaches to reliably identify and locate software packages.
@@ -91,7 +91,5 @@ declare module "packageurl-js" {
      * @param purl string to parse
      */
     static fromString(purl: string): PackageURL
-
   }
-
 }
