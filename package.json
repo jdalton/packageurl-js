@@ -6,16 +6,16 @@
     "package",
     "url"
   ],
-  "homepage": "https://github.com/package-url/packageurl-js#readme",
+  "homepage": "https://github.com/jdalton/packageurl-js#readme",
   "bugs": {
-    "url": "https://github.com/package-url/packageurl-js/issues"
+    "url": "https://github.com/jdalton/packageurl-js/issues"
   },
   "license": "MIT",
   "author": "the purl authors",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/package-url/packageurl-js.git"
+    "url": "git+https://github.com/jdalton/packageurl-js.git"
   },
   "scripts": {
     "test": "mocha",
