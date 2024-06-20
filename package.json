@@ -11,7 +11,7 @@
     "url": "https://github.com/jdalton/packageurl-js/issues"
   },
   "license": "MIT",
-  "author": "the purl authors",
+  "author": "John-David <john.david.dalton@gmail.com>",
   "main": "index.js",
   "repository": {
     "type": "git",
