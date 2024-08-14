@@ -1,17 +1,17 @@
-# packageurl-js
+# @jdalton/packageurl-js
 
 ### Installing
 
-To install `packageurl-js` in your project, simply run:
+To install `@jdalton/packageurl-js` in your project, simply run:
 ```bash
-npm install packageurl-js
+npm install @jdalton/packageurl-js
 ```
 
-This command will download the `packageurl-js` npm package for use in your application.
+This command will download the `@jdalton/packageurl-js` npm package for use in your application.
 
 ### Local Development
 
-Clone the `packageurl-js` repo and `cd` into the directory.
+Clone the `@jdalton/packageurl-js` repo and `cd` into the directory.
 
 Then run:
 ```bash
@@ -31,12 +31,12 @@ npm test
 
 As an ES6 module
 ```js
-import { PackageURL } from 'packageurl-js'
+import { PackageURL } from '@jdalton/packageurl-js'
 ```
 
 As a CommonJS module
 ```js
-const { PackageURL } = require('packageurl-js')
+const { PackageURL } = require('@jdalton/packageurl-js')
 ```
 
 #### Parsing
@@ -104,7 +104,7 @@ import {
     PackageURL,
     PurlComponent,
     PurlType
-} from 'packageurl-js'
+} from '@jdalton/packageurl-js'
 
 PurlComponent === PackageURL.Component // => true
 PurlType === PackageURL.Type // => true
